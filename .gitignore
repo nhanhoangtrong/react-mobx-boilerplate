@@ -57,3 +57,11 @@ typings/
 # dotenv environment variables file
 .env
 
+# MacOS utility files
+.DS_Store
+
+# Build destination folder
+build
+
+# VSCode Configuration folder
+.vscode
