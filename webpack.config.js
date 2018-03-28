@@ -31,7 +31,6 @@ const baseConfig = {
     // Each entry points will be built to a output file
     entry: {
         app: './index.jsx',
-        common: ['react', 'react-dom', 'prop-types', 'react-router-dom'],
     },
     // Notify Webpack to resolve js, jsx and json file, and use @app alias for SOURCE_DIR
     resolve: {
@@ -44,7 +43,7 @@ const baseConfig = {
     context: SOURCE_DIR,
     // Configure output options include output path, output file and chunk names
     output: {
-        path: resolve(__dirname, 'build'),
+        path: BUILD_DIR,
         publicPath: PUBLIC_PATH,
         filename: NAME_PREFIX + '.js',
         chunkFilename: NAME_PREFIX + '.chunk.js',
