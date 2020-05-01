@@ -1,0 +1,18 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - babel-plugin-transform-decorators-legacy > babel-template > lodash:
+        patched: '2020-05-01T05:26:50.096Z'
+    - '@babel/plugin-proposal-class-properties > @babel/helper-function-name > @babel/template > lodash':
+        patched: '2020-05-01T05:26:50.096Z'
+    - babel-plugin-transform-decorators-legacy > babel-template > babel-types > lodash:
+        patched: '2020-05-01T05:26:50.096Z'
+    - babel-plugin-transform-decorators-legacy > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T05:26:50.096Z'
+    - '@babel/plugin-proposal-class-properties > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2020-05-01T05:26:50.096Z'
+    - babel-plugin-transform-decorators-legacy > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T05:26:50.096Z'
